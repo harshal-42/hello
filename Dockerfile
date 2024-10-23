@@ -1,5 +1,5 @@
 # Use an official Node.js 14 image as the base
-FROM mcr.microsoft.com/node:14
+FROM node:18.16-slim
 
 # Set the working directory to /app
 WORKDIR /app
